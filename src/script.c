@@ -7,6 +7,8 @@
 #include "stats.h"
 #include "zmalloc.h"
 
+#define luaL_reg luaL_Reg
+
 typedef struct {
     char *name;
     int   type;
